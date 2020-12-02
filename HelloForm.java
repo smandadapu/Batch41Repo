@@ -28,8 +28,6 @@ public class HelloForm extends HttpServlet {
                 "<h1 align=\"center\">" + title + "</h1>\n" +
                 "<ul>\n" +
                 "  <li><b>First Name</b>: "
-                + request.getParameter("main_name") + "\n" +
-                + request.getParameter("user_name") + "\n" +
                 "  <li><b>Last Name</b>: "
                 + request.getParameter("Last_name") + "\n" +
                 "</ul>\n" +
@@ -38,7 +36,6 @@ public class HelloForm extends HttpServlet {
   // Method to handle POST method request.
   public void doPost(HttpServletRequest request,
                      HttpServletResponse response)
-      throws ServletException, IOException {
-     doGet(request, response);
+      
   }
 }
