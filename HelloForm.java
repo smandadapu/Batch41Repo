@@ -29,6 +29,7 @@ public class HelloForm extends HttpServlet {
                 "<ul>\n" +
                 "  <li><b>First Name</b>: "
                 + request.getParameter("main_name") + "\n" +
+                + request.getParameter("user_name") + "\n" +
                 "  <li><b>Last Name</b>: "
                 + request.getParameter("Last_name") + "\n" +
                 "</ul>\n" +
